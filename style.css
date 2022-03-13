@@ -32,6 +32,7 @@ h2 {
   letter-spacing: 0px;
   font-style: normal;
   text-shadow: 2px 2px #b7b7a4;
+  text-align: center;
 }
 p {
   font-family: Times New Roman, cursive;
@@ -43,6 +44,7 @@ p {
   line-height: 100%;
   letter-spacing: 0px;
   font-style: normal;
+  text-align: center;
 }
 /* Alligning all listed items with the same font. */
 li {
@@ -53,10 +55,11 @@ li {
   color: #000000;
 
   font-weight: 400; 
-  text-align: normal;
+  text-align: center;
   line-height: 100%;
   letter-spacing: 0px;
   font-style: normal;
+  list-style-position: inside;
 }
 /* Changes link to blue when hovering over it. */
 a:hover {
